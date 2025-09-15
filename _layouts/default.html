@@ -1,0 +1,89 @@
+---
+---
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.17.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CJ6C7K8271"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CJ6C7K8271');
+</script>
+
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+{% seo %}
+{% include google_analytics.html %}
+
+
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html %}
+    {% include_cached browser-upgrade.html %}
+    {% include_cached masthead.html %}
+
+
+
+
+
+    <!-- Begin Web-Stat code v 7.0 -->
+    <span id="wts2122162"></span>
+    <script>
+    var wts7 = {};
+    wts7.invisible='';
+    wts7.page_name='';
+    wts7.group_name='';
+    wts7.conversion_number='';
+    wts7.user_id='';
+    var wts=document.createElement('script');wts.async=true;
+    wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
+    wts.onload = function(){ wtslog7(2122162,3); };
+    </script><noscript><a href="https://www.web-stat.com">
+    <img src="https://app.ardalio.com/7/3/2122162.png" 
+    alt="Web-Stat analytics"></a></noscript>
+    <!-- End Web-Stat code v 7.0 -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="initial-content">
+      {{ content }}
+    </div>
+
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
+      </div>
+    {% endif %}
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>
