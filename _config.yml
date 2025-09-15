@@ -16,12 +16,12 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Isha Puri"
+title                    : "Anika Puri"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Isha Puri"
-description              : "Personal Website and CV, Isha Puri"
-url                      : "ishapuri.github.io"
+name                     : "Anika Puri"
+description              : "Anika Puri's Website"
+url                      : "anikapuri.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of image 
@@ -107,14 +107,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Isha Puri"
-  avatar           : "/assets/images/ishapuri.jpg"
-  bio              : "AI PhD @ MIT, prev CS @ Harvard"
-  location         : "45-711, MIT // NY"
-  email            : ishapuri@mit.edu
-  github           : "ishapuri"
-  linkedin         : "isha-puri/"
-  google-scholar   : "https://scholar.google.com/citations?user=y1cVB_wAAAAJ&hl=en&oi=ao"
+  name             : "Anika Puri"
+  avatar           : "/assets/images/anikapuri.jpg"
+  bio              : "MIT '26"
+  email            : anpuri@mit.edu
+  github           : "anikapuri"
+  linkedin         : "anika-puri/"
+  google-scholar   : "https://scholar.google.com/citations?user=o6m4948AAAAJ&hl=en"
   #twitter          : "ishapuri101"
   links:
     - label: "Email"
@@ -125,7 +124,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ishapuri101"
+      #url: "https://twitter.com/ishapuri101"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -137,7 +136,7 @@ author:
       # url: "https://instagram.com/"
     - label: "Google Scholar"
       icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com/citations?user=y1cVB_wAAAAJ&hl=en&oi=ao"
+      url: "https://scholar.google.com/citations?user=o6m4948AAAAJ&hl=en"
     
 
 
