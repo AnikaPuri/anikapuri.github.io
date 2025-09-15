@@ -25,7 +25,6 @@ You can reach me at anpuri@mit.edu. I'd love to hear from you!
   <summary><h2>Experience</h2></summary>
 
   <style>
-    /* Experience cards */
     .xp-list { list-style: none; margin: 0; padding: 0; }
     .xp-card {
       display: flex; gap: 14px; align-items: flex-start;
@@ -40,7 +39,11 @@ You can reach me at anpuri@mit.edu. I'd love to hear from you!
     .xp-role { margin:0; font-size: 1.05rem; font-weight: 700; }
     .xp-sub  { color:#666; margin:2px 0 0; }
     .xp-meta { font-style: italic; color:#555; white-space: nowrap; }
-    .xp-bullets { margin:6px 0 0 18px; }
+
+    /* Flat bullets */
+    .xp-bullets { list-style: disc; padding-left: 0; margin: 6px 0 0; }
+    .xp-bullets li { margin: 2px 0; padding-left: 0; }
+
     @media (max-width: 640px){
       .xp-card { flex-direction: column; }
       .xp-meta { white-space: normal; }
@@ -49,10 +52,9 @@ You can reach me at anpuri@mit.edu. I'd love to hear from you!
   </style>
 
   <ul class="xp-list">
-
-    <!-- Goldman Sachs -->
+    <!-- Example -->
     <li class="xp-card">
-      <img class="xp-logo" src="/assets/images/goldman_sachs_logo.jpg" alt="Goldman Sachs logo">
+      <img class="xp-logo" src="/assets/images/goldman-sachs.png" alt="Goldman Sachs logo">
       <div style="flex:1;">
         <div class="xp-head">
           <h3 class="xp-role">Artificial Intelligence Researcher · Internship</h3>
@@ -64,6 +66,7 @@ You can reach me at anpuri@mit.edu. I'd love to hear from you!
         </ul>
       </div>
     </li>
+
 
     <!-- MIT GEL -->
     <li class="xp-card">
